@@ -25,40 +25,40 @@
 //   console.log("you got C grade");
 // }
 
-let day = 1;
+// let day = 1;
 
-let x = 2;
+// let x = 2;
 
-switch (day) {
-  case "snghsghsgdv": {
-    console.log("Monday");
-    break;
-  }
-  case 1: {
-    console.log("tue");
-    break;
-  }
-  case 2: {
-    console.log("wed");
-    break;
-  }
-  case 3: {
-    console.log("thur");
-    break;
-  }
-  case 4: {
-    console.log("fri");
-    break;
-  }
-  case 5: {
-    console.log("sat");
-    break;
-  }
-  case 6: {
-    console.log("sun");
-    break;
-  }
-  default: {
-    console.log("invalid day numbers");
-  }
-}
+// switch (day) {
+//   case "snghsghsgdv": {
+//     console.log("Monday");
+//     break;
+//   }
+//   case 1: {
+//     console.log("tue");
+//     break;
+//   }
+//   case 2: {
+//     console.log("wed");
+//     break;
+//   }
+//   case 3: {
+//     console.log("thur");
+//     break;
+//   }
+//   case 4: {
+//     console.log("fri");
+//     break;
+//   }
+//   case 5: {
+//     console.log("sat");
+//     break;
+//   }
+//   case 6: {
+//     console.log("sun");
+//     break;
+//   }
+//   default: {
+//     console.log("invalid day numbers");
+//   }
+// }
