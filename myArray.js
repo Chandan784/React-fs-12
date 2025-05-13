@@ -56,3 +56,97 @@
 //swap index of array
 
 // let nums = [1,2,3,4]  = [2,1,3,4]
+
+//  [1,2,3,4,5,6]   = [6,2,3,4,5,1] = [6,5,3,4,2,1] = [6,5,4,3,2,1]
+
+// start = 0
+// ebd = arr.length -1
+
+// start<end
+
+//reverse array
+//arr = [4,3,2,1]
+//start =2
+//end = 1
+
+//myArr = [4,3,2,1]
+//index1 =1
+//index2 = 2
+//temp = 2
+
+// function reverseArr(arr) {
+//   let start = 0;
+//   let end = arr.length - 1;
+
+//   while (start < end) {
+//     swapArrIndex(arr, start, end);
+//     start++;
+//     end--;
+//   }
+
+//   function swapArrIndex(myArr, index1, index2) {
+//     let temp = myArr[index1]; //myArr[1]
+//     myArr[index1] = myArr[index2];
+//     myArr[index2] = temp;
+//   }
+
+//   return arr;
+// }
+
+// console.log(reverseArr([1, 2, 3, 4,6,7]));
+
+// [1,2,3,4,5,7]   =   1
+
+// [2,3,4,5,1,6,7,8,9] =  1
+
+// 1m = 1    O(1)
+
+//sorted
+
+// n   =   O(n)
+
+//array methods
+
+//push, pop, shift, unshift
+
+// let nums = [1, 2, 3, 45, 5];
+
+// nums.push(111);
+
+// console.log(nums);
+
+// nums.pop();
+
+// console.log(nums);
+
+// nums.unshift(6);
+
+// console.log(nums);
+
+// nums.shift();
+// console.log(nums);
+
+// let newArr = nums.slice(0);
+
+// console.log(newArr);
+
+// let nums = [1, 2, 3, 45, 5];
+// nums.splice(1, 2, 10);
+
+// console.log(nums);
+
+//filter
+let nums = [1, 2, 3, 4, 5, 6];
+let target = 4;
+
+// let ans = nums.filter((num) => {
+//   return 0;
+// });
+
+// console.log(ans);
+
+let ans = nums.filter((num) => {
+  return num !== target;
+});
+
+console.log(ans);
