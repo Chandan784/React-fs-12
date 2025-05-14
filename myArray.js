@@ -136,8 +136,8 @@
 // console.log(nums);
 
 //filter
-let nums = [1, 2, 3, 4, 5, 6];
-let target = 4;
+// let nums = [1, 2, 3, 4, 5, 6];
+// let target = 4;
 
 // let ans = nums.filter((num) => {
 //   return 0;
@@ -145,8 +145,90 @@ let target = 4;
 
 // console.log(ans);
 
-let ans = nums.filter((num) => {
-  return num !== target;
-});
+// let ans = nums.filter((num) => {
+//   return num !== target;
+// });
 
-console.log(ans);
+// console.log(ans);
+
+//fill, some , every, find
+
+//array clone
+//array destructure
+//map reduce
+//shallow copy and deep copy
+//
+
+// Array
+// object
+// string
+// adavance
+
+//wether app project
+
+//event loop -
+// stack   heap
+
+//   nums(121)   =   [1,2,3,4](121)
+//   nums2(121)
+
+//shallow copy and deep copy
+
+// let nums = [1, 2, [1, 1], 3, 4];
+
+// // let nums2 = nums.slice(0);
+// // let nums2 = [...nums];
+// let nums2 = structuredClone(nums);
+
+// console.log(nums, "nums");
+// console.log(nums2, "nums2");
+
+// nums[2].push(4);
+
+// console.log(nums, "nums");
+// console.log(nums2, "nums2");
+
+// let newArr = nums.slice(0, 3);
+
+// console.log(newArr);
+
+// let student = {
+//   student_name: "chandan",
+//   student_age: 26,
+
+// };
+
+// let student2 = JSON.parse(JSON.stringify(student));
+
+// console.log(student);
+// console.log(student2);
+
+// student.student_name = "soumya";
+
+// console.log(student);
+// console.log(student2);
+
+//merging array
+
+// let groupA = ["chandan", "sonu"];
+// let groupB = ["abhisek", "soumya"];
+
+// // let groupC = [...groupA, ...groupB];
+
+// let groupC = groupA.concat(groupB);
+
+// console.log(groupC);
+
+//array destructure
+
+// let scores = [100, 200, 300];
+
+// let batsaman1Score = scores[0];
+// let batsaman2Score = scores[1];
+// let batsaman3Score = scores[2];
+
+// let [x, y, z] = scores;
+
+// console.log(x);
+
+// map, reduce, fill, some, every
