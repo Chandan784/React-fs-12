@@ -232,3 +232,105 @@
 // console.log(x);
 
 // map, reduce, fill, some, every
+
+// let salaries = [10000, 20000, 15000];
+
+// let newSalries = salaries.map((value, index, arr) => {
+//   //   console.log(value);
+//   //   console.log(index);
+//   //   console.log(arr);
+
+//   return `<h1>${value}</h1>`;
+// });
+
+// ;
+
+// let students = ["chandan", "soumya", "sonu"];
+
+// students.forEach((value, index, arr) => {
+//   console.log(value);
+
+// });
+
+// let numbers = [20, 30, 40, 60];
+
+// let total = 0;
+
+// for (let i = 0; i < numbers.length; i++) {
+//   total = total + numbers[i];
+// }
+// console.log(total);
+
+// let ans = numbers.reduce((previousValue, currentValue) => {
+//   console.log(previousValue, "p");
+//   console.log(currentValue, "c");
+
+//   return previousValue + currentValue;
+// }, 0);
+// console.log(ans);
+
+//find method
+
+// let students = ["chandan", "soumya", "soumya"];
+
+// let ans = students.find((e) => {
+//   return e.length == 6;
+// });
+
+// console.log(ans);
+
+// every
+
+// let nums = [2, 4, 3];
+
+// let ans = nums.every((e) => {
+//   return e % 2 == 0;
+// });
+
+// console.log(ans);
+
+//some
+
+// let nums = [2, 4, 3];
+
+// let ans = nums.some((e) => {
+//   return e % 2 == 0;
+// });
+
+// console.log(ans);
+
+// fill
+
+// let nums = [1, 2, 3, 5];
+// nums.fill("chandan");
+// console.log(nums);
+
+// console.log(result);
+
+//swap, reverse, sum
+
+//find largest number
+
+//arr = [2,3,4]
+//largest = 4
+//i =1
+
+// function findLargestNumber(arr) {
+//   let largest = arr[0];
+
+//   for (let i = 1; i < arr.length; i++) {
+//     if (arr[i] > largest) {
+//       largest = arr[i];
+//     }
+//   }
+
+//   return largest;
+// }
+
+// console.log(findLargestNumber([4, 3, 2]));
+// console.log(findLargestNumber([400, 3, 100, 1]));
+
+// O(n);
+//O(1)
+
+// 2 sum
