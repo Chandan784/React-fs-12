@@ -334,3 +334,31 @@
 //O(1)
 
 // 2 sum
+
+// array methods = push pop unshift shift slice splice map filter reduce every some fill
+
+// let arr = [1, 2, 3, 4];
+
+// let newArr = arr.slice(1, 2);
+
+// console.log(arr);
+
+// // console.log(newArr);
+// console.log(newArr);
+// arr.splice(1, 2);
+// console.log(arr);
+// arr.splice(2, 2, 10);
+// console.log(arr);
+
+// let nums = [2, 4, 6, 8];
+
+// let [, , , y] = nums;
+// console.log(y);
+
+// function giveTwoNUmbers() {
+//   return [20, "chandan"];
+// }
+
+// let [value, name] = giveTwoNUmbers();
+
+// console.log(value, name);
