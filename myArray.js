@@ -362,3 +362,42 @@
 // let [value, name] = giveTwoNUmbers();
 
 // console.log(value, name);
+
+//
+
+// let letters = ["a", "b", ["k", "l"]];
+// // //["k","l"] (11)(10)
+
+// // let newLetters = [].concat(letters);
+
+// let newLetters = structuredClone(letters);
+
+// // // ["a","b",(11)(10)]
+
+// console.log(letters);
+// console.log(newLetters);
+
+// letters.push("c");
+
+// letters[2].push("m");
+
+// console.log(letters);
+// console.log(newLetters);
+
+// merge two arr
+
+// let x = [1, 2, 3, 11];
+// let y = [10, 5, 6];
+
+// let z = [...x, ...y];
+// let z = x.push(y);
+// let z = x + y;
+
+// console.log(z);
+
+//reverse , swap indices, sum of array, largest in array
+//method = map, filter, reduce, slice, splice, filter, some, every, fill
+
+//quesionn answer mimic
+
+//spoken english ---- daily vocab - listning (webseies, movie, posdcat,news), speaking
